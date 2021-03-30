@@ -1,0 +1,37 @@
+
+/* header nav stlye */
+
+/* header nav stlye */
+.header_box{display: flex;}
+.header_box .rogo{width: 100%; margin: 30px;}
+
+.member_menu{display: flex;}
+.member_menu .rogin{}
+.member_menu input{ width: 150px; height: 30px;border-radius: 5px;}
+.member_menu .button{width: 60px; height: 30px;border-radius: 5px;}
+
+
+.nav{width: 100%; display: flex;}
+.nav ul{width: 85%; display: flex; margin: 0 15px;}
+.nav ul .one_depht{padding: 10px;}
+.nav ul .one_depht:hover{background: #5a566fa8}
+.nav ul .one_depht:hover a{ color: #fff;}
+.nav hr{width: 100%; border: 1px solid #000;}
+.nav .one_depht a{width: 50px; font-size: 25px; padding: 15px;}
+
+.member_icon{display: flex; float:right;}
+.member_icon img{width: 30px; margin: 10px;}
+
+
+.sliber_box img{margin: 0 auto;}
+
+/* new porduct box */
+.new_box{margin: 50px auto; padding: 50px auto; display: flex;}
+.new_box h1{font-size: 35px; text-align: center;}
+.new_box i{width: 40px; float: right;}
+.new_box ul{width: 90%;height: auto; display: flex; margin: 0 auto;}
+.new_box ul li a img{width: 100%;}
+
+/* icon */
+/* 
+<div>Icons made by <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
