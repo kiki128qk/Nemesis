@@ -19,67 +19,143 @@
 
 </head>
 <body>
-  <div class="wrap ">
-    <header class="center">
-      <div class="header_box">
-        <div class="rogo">
-          <img src="/nemesis/data/img/rogo.png" alt="">
-        </div>
-        <!-- <div class="member_menu"> -->
-          <div class="member_menu">
-            <input type="text" class="id">
-            <input type="text" class="pass">
-            <button type="button" class="button">Login</button>
-            <button type="button" class="button">Join</button>
+  <div class="wrap">
+      <header class="center">
+        <div class="header_box">
+          <div class="rogo">
+            <img src="/nemesis/data/img/rogo.png" alt="">
           </div>
-        <!-- </div> -->
+          <!-- <div class="member_menu"> -->
+            <div class="member_menu">
+              <input type="text" class="id">
+              <input type="text" class="pass">
+              <button type="button" class="button">Login</button>
+              <button type="button" class="button">Join</button>
+            </div>
+          <!-- </div> -->
+        </div>
+      </header>
+      <hr>
+      <div class="nav center">
+        <ul>
+          <li class="one_depht">
+            <a href="#">INFO</a>
+          </li>
+          <li class="one_depht top_depht">
+            <a href="#">PEREFUME</a>
+            <div class="onder_depht">
+              <ul class="two_depht"><a href="#">Perfume</a></ul>
+              <ul class="two_depht"><a href="#">DIY Kit</a></ul>
+            </div>
+          </li>
+          <li class="one_depht">
+            <a href="#">CUTORM</a>
+          </li>
+          <li class="one_depht">
+            <a href="#">Q&A</a>
+          </li>
+        </ul>
+        <div class="member_icon">
+          <a href="#"><img src="/nemesis/data/icon/shopping_bag.svg" alt=""></a>
+          <a href="#"><img src="/nemesis/data/icon/shopping_cart.svg" alt=""></a>
+          <a href="#"><img src="/nemesis/data/icon/add_user.svg" alt=""></a>
+        </div>
       </div>
-    </header>
-    <hr>
-    <div class="nav center">
-      <ul>
-        <li class="one_depht">
-          <a href="#">INFO</a>
-        </li>
-        <li class="one_depht">
-          <a href="#">PEREFUME</a>
-          <!-- <ul class="two_depht">Perfume</ul>
-          <ul class="two_depht">DIY Kit</ul> -->
-        </li>
-        <li class="one_depht">
-          <a href="#">CUTORM</a>
-        </li>
-        <li class="one_depht">
-          <a href="#">Q&A</a>
-        </li>
-      </ul>
-      <div class="member_icon">
-        <a href="#"><img src="/nemesis/data/icon/shopping_bag.svg" alt=""></a>
-        <a href="#"><img src="/nemesis/data/icon/shopping_cart.svg" alt=""></a>
-        <a href="#"><img src="/nemesis/data/icon/add_user.svg" alt=""></a>
-      </div>
+      <hr>
     </div>
-    <hr>
-  </div>
-  <div class="sliber_box">
-  <img src="https://via.placeholder.com/1000x300"/>
+    <div class="sliber_box">
+    <img src="http://via.placeholder.com/1000x300"/>
+
+
+    <section class="new_box center">
+      <div class="new_tit">
+          <h1>NEW</h1>
+          <i class="far fa-plus-square"></i>
+      </div>
+      <div class="slider_wrapper">
+        <ul class="slider">
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/250x300" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 1</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/250x300" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 2</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/250x300" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 3</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/250x300" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 4</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/250x300/red" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 5</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/250x300/red" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 6</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/250x300/red" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 7</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/250x300/red" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 8</h2>
+            </a>
+          </li>
+        </ul>
+      
+      </div>
+
+        <span class="prev">
+          <i class="fas fa-angle-left"></i>
+        </span>
+        <span class="next">
+          <i class="fas fa-angle-right"></i>
+        </span>
+      
+    </section>
 
   </div>
 
-  <section class="new_box center">
-    <h1>NEW</h1>
-    <span><i class="far fa-plus-square"></i></span>
-    <ul>
-      <li><a href="#"><img src="https://via.placeholder.com/150x200" alt=""></a></li>
-      <li><a href="#"><img src="https://via.placeholder.com/150x200" alt=""></a></li>
-      <li><a href="#"><img src="https://via.placeholder.com/150x200" alt=""></a></li>
-      <li><a href="#"><img src="https://via.placeholder.com/150x200" alt=""></a></li>
-      <li><a href="#"><img src="https://via.placeholder.com/150x200" alt=""></a></li>
-      <li><a href="#"><img src="https://via.placeholder.com/150x200" alt=""></a></li>
-    </ul>
-  </section>
 
   <!-- jquery link -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/nemesis/js/custom.js"></script>
 </body>
 </html>

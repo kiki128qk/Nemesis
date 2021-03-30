@@ -1,0 +1,85 @@
+    <div class="member_menu">
+              <input type="text" class="id">
+              <input type="text" class="pass">
+              <button type="button" class="button">Login</button>
+              <button type="button" class="button">Join</button>
+            </div>
+    <hr>
+      <div class="nav center">
+        <ul>
+          <li class="one_depht">
+            <a href="#">INFO</a>
+          </li>
+          <li class="one_depht">
+            <a href="#">PEREFUME</a>
+            <ul class="two_depht">Perfume</ul>
+            <ul class="two_depht">DIY Kit</ul>
+          </li>
+          <li class="one_depht">
+            <a href="#">CUTORM</a>
+          </li>
+          <li class="one_depht">
+            <a href="#">Q&A</a>
+          </li>
+        </ul>
+        <div class="member_icon">
+          <a href="#"><img src="/nemesis/data/icon/shopping_bag.svg" alt=""></a>
+          <a href="#"><img src="/nemesis/data/icon/shopping_cart.svg" alt=""></a>
+          <a href="#"><img src="/nemesis/data/icon/add_user.svg" alt=""></a>
+        </div>
+      </div>
+      <hr>
+    <div class="sliber_box">
+      <img src="http://via.placeholder.com/1200x400"/>
+    </div>
+
+   <section class="new_box center">
+      <div class="new_tit">
+          <h1>NEW</h1>
+          <i class="far fa-plus-square"></i>
+      </div>
+      <div class="new_slider">
+        <ul>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/310x450" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 1</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/310x450" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 2</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/310x450" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 3</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/310x450" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 4</h2>
+            </a>
+          </li>
+          <li class="pro_img">
+            <a href="#">
+              <img src="http://via.placeholder.com/310x450" alt="">
+            </a>
+            <a href="#">
+              <h2>상품 5</h2>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
