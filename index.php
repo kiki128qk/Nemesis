@@ -13,9 +13,10 @@
   <link rel="stylesheet" href="/nemesis/css/style.css"> 
   <!-- media css link -->
   <link rel="stylesheet" href="/nemesis/css/media.css">
-  
   <!-- favicon link -->
   <link rel="icon" href="/nemesis/data/img/favicon.ico" />
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 </head>
 <body>
@@ -51,8 +52,12 @@
           <li class="one_depht">
             <a href="#">CUTORM</a>
           </li>
-          <li class="one_depht">
+          <li class="one_depht top_depht">
             <a href="#">Q&A</a>
+            <div class="onder_depht">
+              <ul class="two_depht"><a href="#">1:1 문의</a></ul>
+              <!-- <ul class="two_depht"><a href="#"></a></ul> -->
+            </div>
           </li>
         </ul>
         <div class="member_icon">
@@ -63,99 +68,122 @@
       </div>
       <hr>
     </div>
-    <div class="sliber_box">
-    <img src="http://via.placeholder.com/1000x300"/>
-
+    <div class="banner_box">
+      <img src="http://via.placeholder.com/1100x300"/>
+      <img src="http://via.placeholder.com/1100x300/red"/>
+    </div>
 
     <section class="new_box center">
       <div class="new_tit">
           <h1>NEW</h1>
-          <i class="far fa-plus-square"></i>
+          <a href="#">
+            <i class="far fa-plus-square"></i>
+          </a>
       </div>
       <div class="slider_wrapper">
-        <ul class="slider">
+        <ul class="slides">
           <li class="pro_img">
             <a href="#">
               <img src="http://via.placeholder.com/250x300" alt="">
             </a>
-            <a href="#">
-              <h2>상품 1</h2>
-            </a>
-          </li>
-          <li class="pro_img">
-            <a href="#">
-              <img src="http://via.placeholder.com/250x300" alt="">
-            </a>
-            <a href="#">
-              <h2>상품 2</h2>
-            </a>
+            <div class="pro_tit">
+              <i>16,000</i>
+              <a href="#">
+                <h2>Lavender</h2>
+              </a>
+            </div>
           </li>
           <li class="pro_img">
             <a href="#">
               <img src="http://via.placeholder.com/250x300" alt="">
             </a>
-            <a href="#">
-              <h2>상품 3</h2>
-            </a>
+            <div class="pro_tit">
+              <i>18,000</i>
+              <a href="#">
+                <h2>Party Night</h2>
+              </a>
+            </div>
           </li>
           <li class="pro_img">
             <a href="#">
               <img src="http://via.placeholder.com/250x300" alt="">
             </a>
-            <a href="#">
-              <h2>상품 4</h2>
-            </a>
+            <div class="pro_tit">
+              <i>36,000</i>
+              <a href="#">
+                <h2>Pong Pong</h2>
+              </a>
+            </div>
           </li>
           <li class="pro_img">
             <a href="#">
-              <img src="http://via.placeholder.com/250x300/red" alt="">
+              <img src="http://via.placeholder.com/250x300" alt="">
             </a>
-            <a href="#">
-              <h2>상품 5</h2>
-            </a>
+            <div class="pro_tit">
+              <i>26,000</i>
+              <a href="#">
+                <h2>Street</h2>
+              </a>
+            </div>
           </li>
           <li class="pro_img">
             <a href="#">
-              <img src="http://via.placeholder.com/250x300/red" alt="">
+              <img src="http://via.placeholder.com/250x300" alt="">
             </a>
-            <a href="#">
-              <h2>상품 6</h2>
-            </a>
+            <div class="pro_tit">
+              <i>15,000</i>
+              <a href="#">
+                <h2>Dr. Pepper</h2>
+              </a>
+            </div>
           </li>
           <li class="pro_img">
             <a href="#">
-              <img src="http://via.placeholder.com/250x300/red" alt="">
+              <img src="http://via.placeholder.com/250x300" alt="">
             </a>
-            <a href="#">
-              <h2>상품 7</h2>
-            </a>
-          </li>
-          <li class="pro_img">
-            <a href="#">
-              <img src="http://via.placeholder.com/250x300/red" alt="">
-            </a>
-            <a href="#">
-              <h2>상품 8</h2>
-            </a>
+            <div class="pro_tit">
+              <i>16,000</i>
+              <a href="#">
+                <h2>Cotton candy</h2>
+              </a>
+            </div>
           </li>
         </ul>
-      
       </div>
-
         <span class="prev">
           <i class="fas fa-angle-left"></i>
         </span>
         <span class="next">
           <i class="fas fa-angle-right"></i>
         </span>
-      
     </section>
-
+    <section class="event_box center">
+      <div class="make_box">
+        <a href="#">
+          <img src="/nemesis/data/img/makeimg.jpg" alt="">
+        </a>
+      </div>
+      <div class="review_box">
+        <a href="#">
+          <div class="inside_box">
+            <img src="/nemesis/data/img/review.jpg" alt="">
+            <div class="content">
+              <h1> gogau*** 고객님 후기</h1>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
   </div>
 
 
   <!-- jquery link -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- plugin script -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- <script src="/nemesis/js/plugin.js"></script> -->
+  <!-- js script -->
   <script src="/nemesis/js/custom.js"></script>
 </body>
 </html>
