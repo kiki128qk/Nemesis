@@ -3,47 +3,58 @@
 .header_box .rogo{width: 100%; margin: 30px;}
 /* .member_menu .rogin{} */
 .member_menu{display: flex;}
-.member_menu input{ width: 150px; height: 30px;border-radius: 5px;}
+.member_menu>input{ width: 150px; height: 30px;border-radius: 5px;}
 .member_menu .button{width: 60px; height: 30px;border-radius: 5px;}
 .nav{width: 100%; display: flex;}
 .nav>ul{width: 85%; display: flex; margin: 5px 15px;}
-.nav ul .one_depht{width: 13%; padding: 10px 0 0px; text-align: center;}
-.nav ul .one_depht:hover>a,
-.nav ul .two_depht:hover>a{font-weight: 600; color: #69647e;}
-.nav ul .one_depht .two_depht{width: 100%; text-align: center; font-size: 20px; border-bottom: 1px solid #ccc; padding: 5px 0 0;}
-.nav ul .top_depht .onder_depht{display: none;}
-.nav ul .top_depht:hover .onder_depht,
-.nav ul .top_depht .onder_depht:hover{display: block;}
-.nav hr{width: 100%; border: 1px solid #000;}
-.nav .one_depht a{ font-size: 29px;}
+.nav>ul .one_depht{width: 13%; padding: 5px 0px; text-align: center;}
+.nav>ul .one_depht:hover>a,
+.nav>ul .two_depht:hover>a{font-weight: 600; color: #69647e;}
+.nav>ul .one_depht .two_depht{width: 100%; text-align: center; font-size: 20px; border-bottom: 1px solid #ccc; padding: 5px 0 0;}
+.nav>ul .top_depht .onder_depht{display: none;}
+.nav>ul .top_depht:hover .onder_depht,
+.nav>ul .top_depht .onder_depht:hover{display: block;}
+.nav>hr{width: 100%; border: 1px solid #000;}
+.nav .one_depht>a{ font-size: 29px;}
 .member_icon{display: flex; float:right;}
-.member_icon img{width: 30px; margin: 10px;}
+.member_icon>img{width: 30px; margin: 10px;}
 .banner_box{width: 1100px; height: 300px; margin: 0 auto;}
-.banner_box img{width: 100%; max-width: 1100px; margin: 0 auto;}
+.banner_box>img{width: 100%; max-width: 1100px; margin: 0 auto;}
 /* new slider porduct box */
 .new_box{width: 100%; position: relative; margin: 50px auto;}
 .new_box .new_tit{width: 100%; display: flex; justify-content: center; margin: 0 auto; }
-.new_box .new_tit h1{width: 100%; font-size: 45px; text-align: center;}
-.new_box .new_tit i{ font-size: 20px; line-height: 3; float: right;}
+.new_box .new_tit>h1{width: 100%; font-size: 45px; text-align: center;}
+.new_box .new_tit>i{ font-size: 20px; line-height: 3; float: right;}
 .new_box .slider_wrapper{width: 100%; _max-width: 1100px; height: 380px; position: relative; margin: 0 auto; overflow: hidden;}
 .new_box .slider_wrapper .slides{ position: absolute; left: 0; top: 0; transition:left 0.4s ease-out;}
 .new_box .slider_wrapper .slides .pro_img{width:250px; height: auto; float: left; margin:0 12px;}
-.new_box .slider_wrapper .slides .pro_img a img{width:250px; height: 300px; margin: 10px;}
+.new_box .slider_wrapper .slides .pro_img>a>img{width:250px; height: 300px; margin: 10px;}
 .new_box .slider_wrapper .pro_img .pro_tit{text-align: center;}
-.new_box .slider_wrapper .pro_img .pro_tit i{font-size: 20px; font-style: normal;}
-.new_box .slider_wrapper .pro_img .pro_tit a h2{font-size:25px; margin: 5px;}
-.new_box span{position: absolute; font-size: 25px; top: 50%;}
+.new_box .slider_wrapper .pro_img .pro_tit>i{font-size: 20px; font-style: normal;}
+.new_box .slider_wrapper .pro_img .pro_tit>a>h2{font-size:25px; margin: 5px;}
+.new_box>span{position: absolute; font-size: 25px; top: 50%;}
 .new_box .prev{left: -10px;}
 .new_box .next{right: -20px;}
-/* event_box section style */
-.event_box{width: 100%; margin: 50px auto; display: flex;}
-.event_box .make_box{width: 50%; height: 300px; overflow: hidden;}
-.event_box .make_box img{width: 100%;}
-.event_box .review_box{width: 50%; height: 300px; background: darkcyan; position: relative;}
-.event_box .review_box .inside_box{display: flex; position: absolute; top: 50%; transform: rotateY(-255px); }
-.event_box .review_box .inside_box img{width: 40%;}
-
-
+/* content_box section style */
+.content_box{width: 100%; margin: 50px auto; display: flex;}
+.content_box .make_box{width: 50%; height: 300px; overflow: hidden; position: relative;}
+.content_box .make_box>a>img{width: 100%;}
+.content_box .make_box .make_con{width: 80%; height: 80%;  position: absolute;top: 50%; left: 50%; transform:translate(-220px, -115px); background: rgba(204, 204, 204, 0.657);}
+.content_box .make_box .make_con>h1,
+.content_box .make_box .make_con>em{font-size:30px; font-style: normal;margin: 83px 50px; line-height: 1.5;}
+.content_box .review_box{width: 50%; height: 300px; background: #69647e60; position: relative;}
+.content_box .review_box .inside_box{display: flex; position: absolute; top: 50%; transform:translateY(-100px); justify-content: center;}
+.content_box .review_box .inside_box>img{width: 35%;}
+.content_box .review_box .inside_box .re_txt_con{width: 50%; padding: 5px;}
+.content_box .review_box .inside_box .re_txt_con>h2{margin: 10px auto;}
+.content_box .review_box .inside_box .re_txt_con>em{font-size: 16px; font-style: normal;  }
+/* product section stlye */
+.product
+.product .tab_box .tab_cont_01{display: flex;}
+.product .tab_box .tab_cont_01 .kit_con{width: 25%; height: auto;}
+.product .tab_box .tab_cont_01 .kit_con>a>img{width: 250px; height: 300px;}
+.product .tab_box .tab_cont_01 .kit_con .kit_tit{text-align: center;}
 /* icon */
 /* 
-<div>Icons made by <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
+<div>Icons made by <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> 
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>*/

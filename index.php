@@ -157,21 +157,54 @@
           <i class="fas fa-angle-right"></i>
         </span>
     </section>
-    <section class="event_box center">
+    <section class="content_box center">
       <div class="make_box">
         <a href="#">
           <img src="/nemesis/data/img/makeimg.jpg" alt="">
+          <div class="make_con">
+            <h1>나만의 향수로 봄맞이!<br>내가 만든 향수로 향기나는 하루!</h1>
+          </div>
         </a>
       </div>
       <div class="review_box">
         <a href="#">
           <div class="inside_box">
             <img src="/nemesis/data/img/review.jpg" alt="">
-            <div class="content">
-              <h1> gogau*** 고객님 후기</h1>
+            <div class="re_txt_con">
+              <h2> gogau*** 고객님 후기</h2>
+              <em>
+                첨에 뿌렸을때는 응? 별론데 싶었는데 잔향 존좋이네요...계속 맡게됌ㅋㅋ.
+                실버마운트는 향긋하면서도 싱그러운 향임.
+                불호 없는 향이라고할까요? 무겁지않고 언제쓰든지 좋을향수입니다.
+              </em>
             </div>
           </div>
         </a>
+      </div>
+    </section>
+
+    <section class="product center">
+      <div class="tab_box">
+        <div class="tab_tit_01">
+        
+        </div>
+
+        <div class="tab_cont_01">
+        
+          <!-- <div class="kit_con">
+            <a href="#">
+              <img src="http://via.placeholder.com/250x300" alt="">
+            </a>
+            <div class="kit_tit">
+              <i>15,000</i>
+              <a href="#">
+                <h2>Dr. Pepper</h2>
+              </a>
+            </div>
+          </div> -->
+        </div>
+
+
       </div>
     </section>
   </div>
