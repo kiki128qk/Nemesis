@@ -186,10 +186,11 @@
     <section class="tab_box center">
       <div class="tab_contents">
         <ul class="tab_tit">
-          <li><a href="#tabCont01" class="active">PERFUME</a></li>
+          <li><a href="#tabCont01" class="active">PERFUME</a>
+          </li>
           <li><a href="#tabCont02">STICK PERFUME</a></li>
           <li><a href="#tabCont03">DIY KIT</a></li>
-          <li><a href="#tabCont03">DIFFUSER</a></li>
+          <li><a href="#tabCont04">DIFFUSER</a></li>
         </ul>
         <hr>
         <div class="tab_group">
