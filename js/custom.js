@@ -46,3 +46,9 @@ var slides = document.querySelector('.slides'),
           moveSlide(slideCount - 3);
         }
     });
+// tab js
+
+
+var tabTarget ='tabCont01';
+
+document.getElementById('tabCont01').style.display='block';
