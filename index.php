@@ -169,19 +169,32 @@
         </a>
       </div>
       <div class="review_box">
-        <a href="#">
-          <div class="inside_box">
-            <img src="/nemesis/data/img/review.jpg" alt="">
-            <div class="re_txt_con">
-              <h2> gogau*** 고객님 후기</h2>
-              <em>
-                첨에 뿌렸을때는 응? 별론데 싶었는데 잔향 존좋이네요...계속 맡게됌ㅋㅋ.
-                실버마운트는 향긋하면서도 싱그러운 향임.
-                불호 없는 향이라고할까요? 무겁지않고 언제쓰든지 좋을향수입니다.
-              </em>
+        <div class="review_con">
+            <div class="inside_box">
+              <a href="#">
+                <img src="/nemesis/data/img/review_01.jpg" alt="">
+                <div class="re_txt_con">
+                  <h2> gogau*** 고객님 후기</h2>
+                  <em>
+                    세일도하고 무료 이벤트도 하길레 큰맘먹고 하나 샀는데 더 살것 그랬어요ㅠ 너무 좋은ㅠㅠ
+                  </em>
+                </div>
+              </a>
             </div>
-          </div>
-        </a>
+            <!-- <div class="inside_box">
+              <a href="#">
+                <img src="/nemesis/data/img/review_02.jpg" alt="">
+                <div class="re_txt_con">
+                  <h2> sinball*** 고객님 후기</h2>
+                  <em>
+                  첨에 뿌렸을때는 응? 별론데 싶었는데 잔향 존좋이네요...계속 맡게됌ㅋㅋ.
+                  실버마운트는 향긋하면서도 싱그러운 향임.
+                  불호 없는 향이라고할까요? 무겁지않고 언제쓰든지 좋을향수입니다.
+                  </em>
+                </div>
+              </a>
+            </div> -->
+        </div>
       </div>
     </section>
 
@@ -392,6 +405,23 @@
       </div>
     </section>
   </div>
+
+  <footer>
+    <ul>
+      <li>
+        <h2>CUSTOMER CENTER</h2>
+        <h3>T. 012-456-789</h3>
+      </li>
+      <li>
+        <p>mon~fri am10:00~pm5:00(lunch.pm 12:00~pm 1:00)</p>
+        <p>sat,sun,holiday off</p>
+        <p>한국 123-456-7897</p>
+        <p>예금주: 네메시스</p>
+      </li>
+
+    </ul>
+
+  </footer>
 
 
   <!-- jquery link -->
