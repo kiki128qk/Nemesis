@@ -150,12 +150,14 @@
           </li>
         </ul>
       </div>
+      <div class="controller">
         <span class="prev">
           <i class="fas fa-angle-left"></i>
         </span>
         <span class="next">
           <i class="fas fa-angle-right"></i>
         </span>
+      </div> 
     </section>
     <section class="content_box center">
       <div class="make_box">

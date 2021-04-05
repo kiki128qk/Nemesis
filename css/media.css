@@ -2,11 +2,15 @@
   .topMain{width:100%;}
   .banner_box{height:auto;}
   .slider_wrapper{max-width: 844px;}
-  .new_box .prev{left: 30px; margin: 0 20px;}
-  .new_box .next{right: 30px; margin: 0 20px;}
+  .new_box .controller .prev{left: 30px; margin: 0 20px;}
+  .new_box .controller .next{right: 30px; margin: 0 20px;}
 }
-/* 
+
 @media screen and (max-width:1000px){
-  .new_box .prev{left:5%;}
-  .new_box .next{right:5%;}
-} */
+  .tab_box .tab_contents .tab_group .tab_cont .flex .tab_Object{width: 33.33%;}
+}
+
+@media screen and (max-width:950px){
+  .new_box .controller .prev{left:10px;}
+  .new_box .controller .next{right:10px;}
+}
