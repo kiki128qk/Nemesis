@@ -214,6 +214,7 @@
               <div class="tab_Object">
                 <a href="#">
                   <img src="http://via.placeholder.com/250x300" alt="">
+                  <img src="http://via.placeholder.com/250x300/red" alt="">
                 </a>
                 <div class="obj_tit">
                   <i>15,000</i>
